@@ -8,8 +8,8 @@ class PhotosCarousel extends Component {
     let {index, direction, handleSelect} = this.props;
 
     return (
-      <div style={{padding: "0px 200px 0px 200px"}}>
-        <Carousel activeIndex={index} direction={direction} onSelect={handleSelect}>
+      <div>
+        <Carousel activeIndex={index} direction={direction} onSelect={handleSelect} style={{top: "-45px"}}>
           <Carousel.Item>
             <img width={900} height={500} alt="900x500" src={carouselImgPath}/>
             <Carousel.Caption>
