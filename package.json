@@ -25,7 +25,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EmpoweredMinistry/empowered-ministry-web.git"
+    "url": "git+https://github.com/EmpoweredMinistry/empoweredministry.github.io.git"
   },
   "keywords": [
     "empowered",
@@ -35,7 +35,7 @@
   "author": "Manny Colon",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/EmpoweredMinistry/empowered-ministry-web/issues"
+    "url": "https://github.com/EmpoweredMinistry/empoweredministry.github.io/issues"
   },
-  "homepage": "https://empoweredministry.github.io/"
+  "homepage": "https://empoweredministry.github.io/empoweredministry.github.io"
 }
