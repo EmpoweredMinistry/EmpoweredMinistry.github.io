@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 // assets
-import logo from './assets/Logo_Final.png';
+import logo from './assets/logo.png';
 import '../css/App.css';
 // components
 import PhotosCarousel from './PhotosCarousel';
