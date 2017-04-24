@@ -19,13 +19,14 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
+    "clean": "rm -rf node_modules/gh-pages/.cache",
     "deploy": "gh-pages -d build"
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EmpoweredMinistry/empoweredministry.github.io.git"
+    "url": "git+https://github.com/EmpoweredMinistry/empoweredministry.git"
   },
   "keywords": [
     "empowered",
@@ -35,7 +36,7 @@
   "author": "Manny Colon",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/EmpoweredMinistry/empoweredministry.github.io/issues"
+    "url": "https://github.com/EmpoweredMinistry/empoweredministry/issues"
   },
-  "homepage": "https://empoweredministry.github.io/empoweredministry.github.io"
+  "homepage": "https://empoweredministry.github.io/empoweredministry"
 }

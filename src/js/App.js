@@ -16,7 +16,6 @@ class App extends Component {
   }
 
   handleSelect(selectedIndex, e) {
-    alert('selected=' + selectedIndex + ', direction=' + e.direction);
     this.setState({
       index: selectedIndex,
       direction: e.direction

@@ -6,7 +6,7 @@ import {Carousel} from 'react-bootstrap';
 class PhotosCarousel extends Component {
   render() {
     let {index, direction, handleSelect} = this.props;
-    console.log(direction)
+
     return (
       <div style={{padding: "0px 200px 0px 200px"}}>
         <Carousel activeIndex={index} direction={direction} onSelect={handleSelect}>
