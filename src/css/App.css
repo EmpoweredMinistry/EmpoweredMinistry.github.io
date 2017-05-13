@@ -1,12 +1,22 @@
-.App {
-  text-align: center;
+@import './CardsLayout.css';
+
+/*.App {
+
+}*/
+
+.App-body {
+  width: 100% !important;
+  max-width: 980px;
+  min-width: 0;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .App-logo {
-  animation: App-logo-spin 1 15s linear;
+  animation: App-logo-spin 1 3s linear;
   height: 80px;
-  float: left;
-  margin-left: 50px;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .App-header {
@@ -27,5 +37,35 @@
 }
 
 .carousel-inner > .item > img {
-    margin: 0 auto;
+  margin: 0 auto;
 }
+
+/*.App-logo {
+  animation: shake 2s cubic-bezier(.36,.07,.19,.97) both;
+  height: 80px;
+  float: left;
+  margin-left: 50px;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}*/
